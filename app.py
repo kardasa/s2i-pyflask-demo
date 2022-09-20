@@ -9,6 +9,7 @@ def hello_world():
 def get_version():
     return '<h1>App version : <b>2.0</b></h1>'
 
+
 @app.route('/test')
 def get_test():
     return '<h1>You are accessing /test endpoint of the v1</h1>'
